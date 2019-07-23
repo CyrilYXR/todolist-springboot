@@ -1,0 +1,6 @@
+CREATE TABLE TODO (
+  id IDENTITY PRIMARY KEY,
+  title VARCHAR,
+  isfinished SMALLINT,
+  editable SMALLINT
+);
