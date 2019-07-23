@@ -16,15 +16,14 @@ public class Todo {
 
     private Integer isfinished;
 
-    private Integer editable;
+//    private Integer editable;
 
     public Todo() {
     }
 
-    public Todo(String title, Integer isfinished, Integer editable) {
+    public Todo(String title, Integer isfinished) {
         this.title = title;
         this.isfinished = isfinished;
-        this.editable = editable;
     }
 
     public Long getId() {
@@ -50,12 +49,12 @@ public class Todo {
     public void setIsfinished(Integer isfinished) {
         this.isfinished = isfinished;
     }
-
-    public Integer getEditable() {
-        return editable;
-    }
-
-    public void setEditable(Integer editable) {
-        this.editable = editable;
-    }
+//
+//    public Integer getEditable() {
+//        return editable;
+//    }
+//
+//    public void setEditable(Integer editable) {
+//        this.editable = editable;
+//    }
 }
